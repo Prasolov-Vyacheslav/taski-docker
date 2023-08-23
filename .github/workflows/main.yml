@@ -120,7 +120,6 @@ jobs:
           context: ./gateway/
           push: true
           tags: prvyacheslav/taski_gateway:latest
-  
   deploy:
     runs-on: ubuntu-latest
     needs: 
